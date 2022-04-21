@@ -1,2 +1,17 @@
-@import 'reset.scss';
-@import 'flexBoxGrid.scss';
+@import "libraries/reset.scss";
+@import "libraries/flexBoxGrid.scss";
+@import "styles/body.scss";
+@import "styles/header.scss";
+@import "styles/hero.scss";
+@import "styles/helper.scss";
+@import "styles/promotion.scss";
+@import "styles/globally-accepted.scss";
+@import "styles/lattest\ tour.scss";
+@import "styles/our-team.scss";
+@import "styles/why-choose-us.scss";
+@import "styles/feedback.scss";
+@import "styles/news.scss";
+@import "styles/footer.scss";
+@import "styles/toaster.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap");

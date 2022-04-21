@@ -1,16 +1,614 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href="/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/styles.css" />
     <title>Document</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <header class="header">
+      <div class="row middle-xs between-xs">
+        <div class="col-xs-3">
+          <div class="header__logo">
+            <img src="assets/images/Travelline logo.svg" alt="travel-logo" />
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="header__nav"></div>
+        </div>
+        <div class="col-xs-3">
+          <div class="header__contacts">
+            <img src="assets/images/phone icon.svg" alt="phone-icon" />
+            <span>+1 (000) 000 000</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="row">
+        <div class="col-xs-6">
+          <div class="hero__content">
+            <div class="hero__text">
+              <span class="hero__span hero____span--1">Life is a journey</span
+              ><span class="hero__span hero__span--2">, not a destination</span>
+              <p class="hero__paragraph">
+                Let’s start your journey with us, your dream will <br />
+                come true...
+              </p>
+            </div>
+            <div class="hero__buttons">
+              <button class="hero__explore">Explore Destinations</button>
+              <button class="hero__play">
+                <img src="assets/images/play icon.svg" alt="play" />
+              </button>
+              <span class="hero__how-it-works">Watch how it works</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-6">
+          <div class="hero__image">
+            <img
+              class="travel-pic"
+              src="assets/images/travel pic.svg"
+              alt="travel"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="promotion">
+      <div class="row around-xs">
+        <div class="col-xs-6">
+          <div>
+            <div class="promotion__header">
+              <span class="promotion__span promotion__span--1"
+                >Check Our Best</span
+              >
+              <span class="promotion__span promotion__span--2"
+                >Promotional Tour</span
+              >
+            </div>
+            <p class="promotion__paragraph">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row between-xs">
+        <div class="col-xs-1">
+          <div class="promotion__arrow-box">
+            <button
+              class="promotion__arrow-button promotion__arrow-button--left"
+            >
+              <img src="assets/images/arrow left icon.svg" alt="left" />
+            </button>
+          </div>
+        </div>
+        <div class="carousel-box">
+          <div class="promotion__beijing carousel__element">
+            <div class="col-xs-3">
+              <div>
+                <img
+                  class="promotion__pictures"
+                  src="assets/images/beijing.png"
+                  alt="beijing"
+                />
+                <div class="promotion__pic-subtitle-box">
+                  <span class="promotion__pic-subtitle">Beijing</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="promotion__turkey carousel__element">
+            <div class="col-xs-3">
+              <div>
+                <img
+                  class="promotion__pictures"
+                  src="assets/images/turkey.png"
+                  alt="turkey"
+                />
+                <div class="promotion__pic-subtitle-box">
+                  <span class="promotion__pic-subtitle">Turkey</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="promotion__pakistan carousel__element">
+            <div class="col-xs-3">
+              <div>
+                <img
+                  class="promotion__pictures"
+                  src="assets/images/pakistan.png"
+                  alt="pakistan"
+                />
+                <div class="promotion__pic-subtitle-box">
+                  <span class="promotion__pic-subtitle">Pakistan</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-1">
+          <div class="promotion__arrow-box">
+            <button
+              class="promotion__arrow-button promotion__arrow-button--right"
+            >
+              <img src="assets/images/arrow right icon.svg" alt="right" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="globally-accepted">
+      <div class="row around-xs">
+        <div class="col-xs-6">
+          <div class="globally-accepted__text">
+            <div class="globally-accepted__title">
+              <span class="globally-accepted__title globally-accepted__title--1"
+                >Globally</span
+              >
+              <span class="globally-accepted__title globally-accepted__title--2"
+                >Accepted</span
+              >
+            </div>
+            <p class="globally-accepted__paragraph">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row center-xs gap-100">
+        <div class="col-xs-4">
+          <div class="globally-accepted__options-box">
+            <img
+              class="globally-accepted__options-img"
+              src="assets/images/glob acc left.png"
+              alt="glob acc left"
+            />
+            <h3 class="globally-accepted__options-title">For Domestic</h3>
+            <button class="globally-accepted__options-button">
+              Start trip today
+            </button>
+          </div>
+        </div>
+        <div class="col-xs-4">
+          <div class="globally-accepted__options-box">
+            <img
+              class="globally-accepted__options-img"
+              src="assets/images/glob acc right.png"
+              alt=" glob acc right"
+            />
+            <h3 class="globally-accepted__options-title">For International</h3>
+            <button class="globally-accepted__options-button">
+              Start trip today
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="lattest-tour">
+      <div class="lattest-tour__container">
+        <div class="row around-xs">
+          <div class="col-xs-5">
+            <div class="lattest-tour__title">
+              <span class="lattest-tour__title lattest-tour__title--1"
+                >Watch,</span
+              >
+              <span class="lattest-tour__title lattest-tour__title--2"
+                >our lattest tour</span
+              >
+            </div>
+            <p class="lattest-tour__paragraph">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+            <span class="lattest-tour__learn-more">Learn more</span>
+          </div>
+          <div class="col-xs-5">
+            <div class="lattest-tour__img-box">
+              <img
+                class="lattest-tour__img"
+                src="assets/images/tour promotion.png"
+                alt="tour-promotion"
+              />
+              <button class="lattest-tour__play-button">
+                <img src="assets/images/play icon.svg" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="our-team">
+      <div class="our-team__container">
+        <div class="row around-xs">
+          <div class="col-xs-6">
+            <div class="our-team__title">
+              <span class="our-team__title our-team__title--1">Our</span>
+              <span class="our-team__title our-team__title--2">Team</span>
+            </div>
+            <div class="our-team__paragraph-container">
+              <p class="our-team__paragraph">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row between-xs">
+          <div class="col-xs-6">
+            <div>
+              <img
+                class="our-team__pictures"
+                src="assets/images/our team pic.png"
+                alt="our-team"
+              />
+            </div>
+          </div>
+          <div class="col-xs-5">
+            <div class="our-team__sub-title">
+              <span class="our-team__sub-title our-team__sub-title--1"
+                >Our</span
+              >
+              <span class="our-team__sub-title our-team__sub-title--2"
+                >team is the secret</span
+              >
+              <span class="our-team__sub-title our-team__sub-title--1"
+                >to our <br />
+                success</span
+              >
+            </div>
+            <div class="our-team__icon-paragraph-box">
+              <div class="our-team__icon-box">
+                <img
+                  class="our-team__icon"
+                  src="assets/images/our team icon 1.svg"
+                  alt="our-team-icon-1"
+                />
+              </div>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,
+              </p>
+            </div>
+            <div class="our-team__icon-paragraph-box">
+              <div class="our-team__icon-box">
+                <img
+                  class="our-team__icon"
+                  src="assets/images/our team icon users.svg"
+                  alt="our-team-icon-users"
+                />
+              </div>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="why-choose-us">
+      <div class="why-choose-us__container">
+        <div class="row around-xs">
+          <div class="col-xs-5">
+            <div class="why-choose-us__title">
+              <span class="why-choose-us__title why-choose-us__title--span-1"
+                >Why</span
+              >
+              <span class="why-choose-us__title why-choose-us__title--span-2"
+                >Choose Us</span
+              >
+            </div>
+            <p class="why-choose-us__paragraph">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </p>
+          </div>
+        </div>
+        <div class="row around-xs">
+          <div class="col-xs-3">
+            <div class="why-choose-us__argument-box">
+              <div
+                class="why-choose-us__icon-box why-choose-us__icon-box--star"
+              >
+                <img src="assets/images/star-icon.svg" alt="star" />
+              </div>
+              <h3 class="why-choose-us__argument-title">Handpicked Hotels</h3>
+              <p class="why-choose-us__argument-paragraph">
+                Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean
+                commodo ligula eget dolor. Aenean massa
+              </p>
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="why-choose-us__argument-box">
+              <div
+                class="why-choose-us__icon-box why-choose-us__icon-box--globe"
+              >
+                <img src="assets/images/globe-icon.svg" alt="globe" />
+              </div>
+              <h3 class="why-choose-us__argument-title">World Class Service</h3>
+              <p class="why-choose-us__argument-paragraph">
+                Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean
+                commodo ligula eget dolor. Aenean massa
+              </p>
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="why-choose-us__argument-box">
+              <div
+                class="why-choose-us__icon-box why-choose-us__icon-box--good"
+              >
+                <img src="assets/images/good-icon.svg" alt="good" />
+              </div>
+              <h3 class="why-choose-us__argument-title">
+                Best Price Guarantee
+              </h3>
+              <p class="why-choose-us__argument-paragraph">
+                Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean
+                commodo ligula eget dolor. Aenean massa
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="feedback">
+      <div class="feedback__container">
+        <div class="row around-xs">
+          <div class="col-xs-5">
+            <div class="feedback__content-box">
+              <div class="feedback__hyper-title-box">
+                <div class="hr"></div>
+                <span class="feedback__hyper-title">TESTIMONIAL</span>
+              </div>
+              <h3 class="feedback__title">What Customers Say?</h3>
+              <p class="feedback__paragraph">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <p class="feedback__paragraph">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <p class="feedback__paragraph">
+                Lorem Ipsum is simply dummy text of the
+              </p>
+              <div class="feedback__input-container">
+                <form class="feedback__form" action="">
+                  <input
+                    class="feedback__input"
+                    type="text"
+                    name="feedback"
+                    placeholder="Write your thought"
+                  />
+                  <button class="feedback__input-submit-btn" type="submit">
+                    <img src="assets/images/red arrow icon.svg" alt="submit" />
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-5">
+            <img
+              class="feedback__customers-pic"
+              src="assets/images/feedback pic.jpg"
+              alt="feedbacl-pic"
+            />
+          </div>
+        </div>
+        <div class="row center-xs">
+          <div class="col-xs-1">
+            <div class="feedback__briefcase-container">
+              <img src="assets/images/briefcase icon.svg" alt="briefcase" />
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="feedback__aplication">
+              <span class="feedback__aplication-title">Upcoming Trips</span>
+              <span class="feedback__aplication-info">Today at 12.00 PM</span>
+              <button class="feeback__aplication-btn">Join Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="news">
+      <div class="news__container">
+        <div class="row center-xs">
+          <div class="col-xs-6">
+            <div class="news__header">
+              <h3 class="news__title">Lastest News and Resources</h3>
+              <p class="news__title-p">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row between-xs">
+          <div class="col-xs-5">
+            <div class="news__left-container">
+              <img
+                class="news__temple-img"
+                src="assets/images/new pic left.svg"
+                alt="temple"
+              />
+              <button class="news__btn news__btn--left">NEWS</button>
+              <h4 class="news__subtitle news__subtitle--left">
+                Where does it come from?
+              </h4>
+              <p class="news__paragraph">
+                Contrary to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical Latin literature from
+                45 BC, making it over 2000 years old.
+              </p>
+              <a class="news__read-more" href="">Read more</a>
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div class="row between-xs">
+              <div class="col-xs-6">
+                <div class="news__img-container">
+                  <img
+                    class="news__img-right"
+                    src="assets/images/news right pic 1.svg"
+                    alt="news-r-1"
+                  />
+                  <button class="news__btn news__btn--absolute">
+                    PRESS RELEASE
+                  </button>
+                </div>
+              </div>
+              <div class="col-xs-6">
+                <div>
+                  <h5 class="news__subtitle">Where does it come from?</h5>
+                  <p class="news__paragraph">
+                    Contrary to popular belief, Lorem Ipsum is not simply random
+                    text. It has roots in a piece of classical Latin literature
+                    from 45 BC, making it over 2000 years old.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <br /><br />
+            <div class="row around-xs">
+              <div class="col-xs-6">
+                <div class="news__img-container">
+                  <img
+                    class="news__img-right"
+                    src="assets/images/news right pic 2.svg"
+                    alt="new-r-2"
+                  />
+                  <button class="news__btn news__btn--absolute">NEWS</button>
+                </div>
+              </div>
+              <div class="col-xs-6">
+                <div>
+                  <h5 class="news__subtitle">Where does it come from?</h5>
+                  <p class="news__paragraph">
+                    Contrary to popular belief, Lorem Ipsum is not simply random
+                    text. It has roots in a piece of classical Latin literature
+                    from 45 BC, making it over 2000 years old.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <br /><br />
+            <div class="row around-xs">
+              <div class="col-xs-6">
+                <div class="news__img-container">
+                  <img
+                    class="news__img-right"
+                    src="assets/images/new right pic 3.svg"
+                    alt="new-r-3"
+                  />
+                  <button class="news__btn news__btn--absolute">NEWS</button>
+                </div>
+              </div>
+              <div class="col-xs-6">
+                <div>
+                  <h5 class="news__subtitle">Where does it come from?</h5>
+                  <p class="news__paragraph">
+                    Contrary to popular belief, Lorem Ipsum is not simply random
+                    text. It has roots in a piece of classical Latin literature
+                    from 45 BC, making it over 2000 years old.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="row center-xs">
+        <div class="col-xs-4">
+          <h3 class="footer__title">Subscribe to get our Newsletter</h3>
+        </div>
+      </div>
+      <div class="row center-xs">
+        <div class="col-xs-4">
+          <div class="footer__form-container">
+            <div class="footer__form" action="">
+              <input class="footer__input" type="email" required />
+              <button class="footer__submit-btn" type="submit">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row center-xs">
+        <div class="col-xs-4">
+          <ul class="footer__email-list"></ul>
+        </div>
+      </div>
+      <div class="row center-xs">
+        <div class="col-xs-4">
+          <div class="footer__links-container">
+            <a class="footer__link" href="">Careers</a>
+            <span class="footer__link">|</span>
+            <a class="footer__link" href="">Privacy Policy</a>
+            <span class="footer__link">|</span>
+            <a class="footer__link" href="">Terms & Conditions</a>
+          </div>
+          <div class="footer__copyright-container">
+            <span class="footer__copyright">© 2021 Tourism Department.</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <section class="toaster">
+      <div class="toast">
+        <span class="last__toast__text"
+          >Multiple lines of text. Curabitur blandit tempus porttitor. Nullam id
+          dolor id nibh ultricies vehicula ut id elit.
+        </span>
+        <span class="toast__action">
+          <svg
+            width="47"
+            height="13"
+            viewBox="0 0 47 13"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6.986 10.264H3.318L2.73 12H0.224L3.78 2.172H6.552L10.108 12H7.574L6.986 10.264ZM6.37 8.416L5.152 4.818L3.948 8.416H6.37ZM10.7143 8.094C10.7143 7.282 10.8776 6.57267 11.2043 5.966C11.5403 5.35933 12.0023 4.89267 12.5903 4.566C13.1876 4.23933 13.8689 4.076 14.6343 4.076C15.6143 4.076 16.4309 4.33267 17.0843 4.846C17.7469 5.35933 18.1809 6.08267 18.3863 7.016H15.8383C15.6236 6.41867 15.2083 6.12 14.5923 6.12C14.1536 6.12 13.8036 6.29267 13.5423 6.638C13.2809 6.974 13.1503 7.45933 13.1503 8.094C13.1503 8.72867 13.2809 9.21867 13.5423 9.564C13.8036 9.9 14.1536 10.068 14.5923 10.068C15.2083 10.068 15.6236 9.76933 15.8383 9.172H18.3863C18.1809 10.0867 17.7469 10.8053 17.0843 11.328C16.4216 11.8507 15.6049 12.112 14.6343 12.112C13.8689 12.112 13.1876 11.9487 12.5903 11.622C12.0023 11.2953 11.5403 10.8287 11.2043 10.222C10.8776 9.61533 10.7143 8.906 10.7143 8.094ZM24.0208 9.97V12H22.8028C21.9348 12 21.2582 11.79 20.7728 11.37C20.2875 10.9407 20.0448 10.2453 20.0448 9.284V6.176H19.0928V4.188H20.0448V2.284H22.4388V4.188H24.0068V6.176H22.4388V9.312C22.4388 9.54533 22.4948 9.71333 22.6068 9.816C22.7188 9.91867 22.9055 9.97 23.1668 9.97H24.0208ZM26.5583 3.376C26.1383 3.376 25.793 3.25467 25.5223 3.012C25.261 2.76 25.1303 2.452 25.1303 2.088C25.1303 1.71467 25.261 1.40667 25.5223 1.164C25.793 0.911999 26.1383 0.785999 26.5583 0.785999C26.969 0.785999 27.305 0.911999 27.5663 1.164C27.837 1.40667 27.9723 1.71467 27.9723 2.088C27.9723 2.452 27.837 2.76 27.5663 3.012C27.305 3.25467 26.969 3.376 26.5583 3.376ZM27.7483 4.188V12H25.3543V4.188H27.7483ZM33.0392 12.112C32.2739 12.112 31.5832 11.9487 30.9672 11.622C30.3606 11.2953 29.8799 10.8287 29.5252 10.222C29.1799 9.61533 29.0072 8.906 29.0072 8.094C29.0072 7.29133 29.1846 6.58667 29.5392 5.98C29.8939 5.364 30.3792 4.89267 30.9952 4.566C31.6112 4.23933 32.3019 4.076 33.0672 4.076C33.8326 4.076 34.5232 4.23933 35.1392 4.566C35.7552 4.89267 36.2406 5.364 36.5952 5.98C36.9499 6.58667 37.1272 7.29133 37.1272 8.094C37.1272 8.89667 36.9452 9.606 36.5812 10.222C36.2266 10.8287 35.7366 11.2953 35.1112 11.622C34.4952 11.9487 33.8046 12.112 33.0392 12.112ZM33.0392 10.04C33.4966 10.04 33.8839 9.872 34.2012 9.536C34.5279 9.2 34.6912 8.71933 34.6912 8.094C34.6912 7.46867 34.5326 6.988 34.2152 6.652C33.9072 6.316 33.5246 6.148 33.0672 6.148C32.6006 6.148 32.2132 6.316 31.9052 6.652C31.5972 6.97867 31.4432 7.45933 31.4432 8.094C31.4432 8.71933 31.5926 9.2 31.8912 9.536C32.1992 9.872 32.5819 10.04 33.0392 10.04ZM43.1573 4.104C44.072 4.104 44.8 4.40267 45.3413 5C45.892 5.588 46.1673 6.4 46.1673 7.436V12H43.7873V7.758C43.7873 7.23533 43.652 6.82933 43.3813 6.54C43.1106 6.25067 42.7466 6.106 42.2893 6.106C41.832 6.106 41.468 6.25067 41.1973 6.54C40.9266 6.82933 40.7913 7.23533 40.7913 7.758V12H38.3973V4.188H40.7913V5.224C41.034 4.87867 41.3606 4.608 41.7713 4.412C42.182 4.20667 42.644 4.104 43.1573 4.104Z"
+            />
+          </svg>
+        </span>
+        <span class="toast__close">
+          <svg
+            width="10"
+            height="10"
+            viewBox="0 0 10 10"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.29289 0.292893C8.68342 -0.097631 9.31658 -0.097631 9.70711 0.292893C10.0976 0.683418 10.0976 1.31658 9.70711 1.70711L6.41421 5L9.70711 8.29289C10.0976 8.68342 10.0976 9.31658 9.70711 9.70711C9.31658 10.0976 8.68342 10.0976 8.29289 9.70711L5 6.41421L1.70711 9.70711C1.31658 10.0976 0.683417 10.0976 0.292893 9.70711C-0.0976318 9.31658 -0.0976318 8.68342 0.292893 8.29289L3.58579 5L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683417 0.292893 0.292893C0.683417 -0.0976311 1.31658 -0.0976311 1.70711 0.292893L5 3.58579L8.29289 0.292893Z"
+            />
+          </svg>
+        </span>
+      </div>
+    </section>
     <script src="/scripts.js"></script>
-</body>
+  </body>
 </html>

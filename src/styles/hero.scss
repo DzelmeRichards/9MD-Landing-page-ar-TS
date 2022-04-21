@@ -1,0 +1,78 @@
+.hero {
+  background-color: #f0c53e;
+  border-bottom-left-radius: 90% 20%;
+  border-bottom-right-radius: 90% 20%;
+}
+
+.travel-pic {
+  width: 500px;
+}
+
+.hero__content {
+  margin-left: 100px;
+  margin-top: 190px;
+}
+
+.hero__span {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 74px;
+  color: #7f2736;
+}
+
+.hero__span--2 {
+  color: #252641;
+}
+
+.hero__paragraph {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 160%;
+  color: #464646;
+  margin-top: 48px;
+}
+
+.hero__buttons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 52px;
+}
+
+.hero__explore {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  padding: 20px 40px;
+  background: #b25a59;
+  border-radius: 80px;
+  color: #ffffff;
+  border: none;
+  :hover {
+    cursor: pointer;
+  }
+}
+
+.hero__play {
+  background-color: #ffffff;
+  border-radius: 100%;
+  padding: 24px 22px 24px 30px;
+  border: none;
+  display: flex;
+}
+
+.hero__how-it-works {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #252641;
+}
+
+.travel-pic {
+  width: 910px;
+  margin-bottom: 60px;
+}

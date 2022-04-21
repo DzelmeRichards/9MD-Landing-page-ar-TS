@@ -1,0 +1,140 @@
+.feedback {
+  display: flex;
+  justify-content: center;
+}
+
+.feedback__container {
+  max-width: 1580px;
+  width: 100%;
+  margin-top: 194px;
+}
+
+.feedback__hyper-title-box {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+
+.hr {
+  width: 90.71px;
+  height: 1px;
+  background-color: #2c2d32;
+}
+
+.feedback__hyper-title {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.2em;
+  margin-bottom: 32px;
+}
+
+.feedback__title {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 82px;
+  color: #7f2736;
+  margin-bottom: 29px;
+}
+
+.feedback__paragraph {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  margin-bottom: 30px;
+}
+
+.feedback__form {
+  position: relative;
+}
+
+.feedback__input {
+  border: 1px solid #ee5060;
+  box-sizing: border-box;
+  border-radius: 80px;
+  padding: 23px 180px 23px 65px;
+}
+
+::placeholder {
+  color: #ee5060;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  width: 240px;
+}
+
+.feedback__input-submit-btn {
+  position: absolute;
+  background-color: transparent;
+  border-radius: 100%;
+  width: 90px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 354px;
+  border: 1px solid #ee5060;
+}
+
+.feedback__customers-pic {
+  max-width: 630px;
+  width: 100%;
+}
+
+.feedback__briefcase-container {
+  background: #f0c53e;
+  border-radius: 8px;
+  padding: 30px 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 95px;
+}
+
+.feedback__aplication {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  margin-top: 88px;
+}
+
+.feedback__aplication-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  color: #595959;
+  width: 181px;
+  margin-bottom: 5px;
+}
+
+.feedback__aplication-info {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  color: #545567;
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+.feeback__aplication-btn {
+  background: #b25a59;
+  border-radius: 80px;
+  padding: 12px 48px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  border: none;
+  max-width: 180px;
+  white-space: nowrap;
+}

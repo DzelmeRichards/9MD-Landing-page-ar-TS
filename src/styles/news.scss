@@ -1,0 +1,109 @@
+.news {
+  display: flex;
+  justify-content: center;
+}
+
+.news__container {
+  max-width: 1580px;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.news__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Nunito Sans";
+  font-style: normal;
+}
+
+.news__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 180%;
+  color: #7f2736;
+}
+
+.news__title-p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 180%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  white-space: nowrap;
+}
+
+.news__left-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.news__temple-img {
+  max-width: 640px;
+  max-height: 340px;
+  position: relative;
+}
+
+.news__btn {
+  background: #f0c53e;
+  border-radius: 80px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  border: none;
+  padding: 2px 36px;
+  white-space: nowrap;
+}
+
+.news__btn--left {
+  max-width: 130px;
+}
+
+.news__btn--absolute {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.news__subtitle {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 180%;
+  color: #7f2736;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.news__subtitle--left {
+  font-size: 26px;
+}
+
+.news__paragraph {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  max-width: 609px;
+}
+
+.news__read-more {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  text-decoration-line: underline;
+  color: #ee5060;
+}
+
+.news__img-container {
+  position: relative;
+  display: flex;
+  max-width: 340px;
+}
+
+.news__img-right {
+  width: 100%;
+}
